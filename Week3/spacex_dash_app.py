@@ -46,13 +46,13 @@ app.layout = html.Div(children=[html.H1('SpaceX Launch Records Dashboard',
                                 max=10000,
                                 step=1000,
                                 value=[min_payload, max_payload],
-                                #marks={
-                                    #0: '0',
-                                    #2500: '2500',
-                                    #5000: '5000',
-                                    #7500: '7500',
-                                    #10000: '10000'
-                                #}
+                                marks={
+                                    0: '0',
+                                    2500: '2500',
+                                    5000: '5000',
+                                    7500: '7500',
+                                    10000: '10000'
+                                }
                                 ),
                                 
 
